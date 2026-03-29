@@ -303,6 +303,17 @@ const I18N = {
 const PROJECTS = {
   items: [
     {
+      name: "Learned",
+      type: "AI Content Tool",
+      description: "An AI-powered content tool that transforms PDFs, web URLs, and text prompts into interactive social media feeds — mimicking Reddit and X interfaces so users can get smart by doomscrolling through their own content.",
+      links: { github: "https://github.com/gongahkia/trae-hackathon-2026" },
+      videos: [
+        { src: "/learned/learned-post-generation.mp4", label: "Post Generation" },
+        { src: "/learned/learned-knowledge-graph.mp4", label: "Knowledge Graph" },
+        { src: "/learned/learned-settings.mp4", label: "Settings" },
+      ],
+    },
+    {
       name: "Fluent",
       type: "Language Learning App",
       description: "A social-media-style language learning platform where users create, share, and explore bite-sized lessons — featuring flashcards, a built-in dictionary, and community-driven content feeds.",
