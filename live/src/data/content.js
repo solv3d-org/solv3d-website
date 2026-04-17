@@ -337,6 +337,16 @@ const PROJECTS = {
       ],
       teamPhoto: { src: "/lawtech/lawtech-hackathon-team-win-photo.jpeg", alt: "Team receiving award" },
     },
+    {
+      name: "Light + Form",
+      type: "Client Website Revamp",
+      description: "A full website revamp delivered for a real client, Light + Form. We reworked the structure, messaging flow, and overall UX to support how their team presents products and serves customers on their live site.",
+      links: { website: "https://light-pro.com/" },
+      videos: [
+        { src: "/light-form/light-form-demo.mp4", label: "Client Site Walkthrough" },
+      ],
+      media: { aspect: "landscape" },
+    },
   ],
 };
 
