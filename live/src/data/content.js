@@ -340,7 +340,7 @@ const PROJECTS = {
     {
       name: "Light + Form",
       type: "Client Website Revamp",
-      description: "A full website revamp delivered for a real client, Light + Form. We reworked the structure, messaging flow, and overall UX to support how their team presents products and serves customers on their live site.",
+      description: "A full website revamp delivered for a real client, Light + Form, currently live at https://light-pro.com/. Guided by the idea that because light should shape everything around it, we reworked the structure, messaging flow, and overall UX to better support how their team presents products and serves customers.",
       links: { website: "https://light-pro.com/" },
       videos: [
         { src: "/light-form/light-form-demo.mp4", label: "Client Site Walkthrough" },

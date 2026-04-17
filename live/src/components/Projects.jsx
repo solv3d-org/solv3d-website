@@ -6,16 +6,18 @@ function VideoShowcase(props) {
   const [active, setActive] = createSignal(0);
   return (
     <div class="video-showcase">
-      <div class="video-main">
+      <div classList={{ "video-main": true, "video-main-landscape": props.aspect === "landscape" }}>
         <video src={props.videos[active()].src} autoplay loop muted playsinline key={active()} class={props.zoom ? "video-zoomed" : ""} />
       </div>
-      <div class="video-tabs">
-        <For each={props.videos}>
-          {(v, i) => (
-            <button classList={{ "video-tab": true, "is-active": i() === active() }} onClick={() => setActive(i())}>{v.label}</button>
-          )}
-        </For>
-      </div>
+      <Show when={props.videos.length > 1}>
+        <div class="video-tabs">
+          <For each={props.videos}>
+            {(v, i) => (
+              <button classList={{ "video-tab": true, "is-active": i() === active() }} onClick={() => setActive(i())}>{v.label}</button>
+            )}
+          </For>
+        </div>
+      </Show>
     </div>
   );
 }
@@ -65,6 +67,7 @@ export default function Projects() {
   const learned = PROJECTS.items[0];
   const fluent = PROJECTS.items[1];
   const dealbreaker = PROJECTS.items[2];
+  const lightForm = PROJECTS.items[3];
   return (
     <section class="projects-wrapper" id="projects" ref={wrapperRef}>
       <div class="projects-sticky">
@@ -74,6 +77,24 @@ export default function Projects() {
           </div>
         </div>
         <div class="projects-track" ref={trackRef}>
+          <div class="project-slide">
+            <div class="project-card">
+              <div class="project-media">
+                <VideoShowcase videos={lightForm.videos} aspect={lightForm.media?.aspect} />
+              </div>
+              <div class="project-info">
+                <span class="project-type">{lightForm.type}</span>
+                <h3>{lightForm.name}</h3>
+                <p>{lightForm.description}</p>
+                <div class="project-links">
+                  <a href={lightForm.links.website} target="_blank" rel="noopener" class="project-link project-link-site">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm7.93 9h-3.13a15.8 15.8 0 00-1.26-5.02A8.01 8.01 0 0119.93 11zM12 4.02c.88 1.14 1.95 3.26 2.54 6H9.46c.59-2.74 1.66-4.86 2.54-6zM8.46 5.98A15.8 15.8 0 007.2 11H4.07a8.01 8.01 0 014.39-5.02zM4.07 13H7.2c.21 1.82.65 3.54 1.26 5.02A8.01 8.01 0 014.07 13zm4.39 0h5.08c-.59 2.74-1.66 4.86-2.54 6.02-.88-1.16-1.95-3.28-2.54-6.02zM15.54 18.02A15.8 15.8 0 0016.8 13h3.13a8.01 8.01 0 01-4.39 5.02z"/></svg>
+                    View Client Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="project-slide">
             <div class="project-card">
               <div class="project-media">
