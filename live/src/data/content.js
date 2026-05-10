@@ -347,6 +347,18 @@ const PROJECTS = {
       ],
       media: { aspect: "landscape" },
     },
+    {
+      name: "Handoff",
+      type: "GoodHack 2026 Healthcare AI",
+      description: "Built for GoodHub SEA's GoodHack, Handoff turns doctor appointment audio and transcripts into clear caregiver action plans. It redacts direct PII, extracts daily tasks, appointment and notification candidates, guarded research follow-ups, and keeps auditable lineage so immediate tasks and long-term care considerations are not left half-remembered or unactionable.",
+      links: { github: "https://github.com/gongahkia/goodhack-hackathon-2026" },
+      videos: [
+        { src: "/handoff/transcription.mov", label: "Transcription" },
+        { src: "/handoff/daily-tasks.mov", label: "Daily Tasks" },
+        { src: "/handoff/daily-goals.mov", label: "Care Goals" },
+        { src: "/handoff/upcoming.mov", label: "Upcoming" },
+      ],
+    },
   ],
 };
 

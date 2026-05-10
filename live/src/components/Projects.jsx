@@ -68,6 +68,7 @@ export default function Projects() {
   const fluent = PROJECTS.items[1];
   const dealbreaker = PROJECTS.items[2];
   const lightForm = PROJECTS.items[3];
+  const handoff = PROJECTS.items[4];
   return (
     <section class="projects-wrapper" id="projects" ref={wrapperRef}>
       <div class="projects-sticky">
@@ -90,6 +91,24 @@ export default function Projects() {
                   <a href={lightForm.links.website} target="_blank" rel="noopener" class="project-link project-link-site">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm7.93 9h-3.13a15.8 15.8 0 00-1.26-5.02A8.01 8.01 0 0119.93 11zM12 4.02c.88 1.14 1.95 3.26 2.54 6H9.46c.59-2.74 1.66-4.86 2.54-6zM8.46 5.98A15.8 15.8 0 007.2 11H4.07a8.01 8.01 0 014.39-5.02zM4.07 13H7.2c.21 1.82.65 3.54 1.26 5.02A8.01 8.01 0 014.07 13zm4.39 0h5.08c-.59 2.74-1.66 4.86-2.54 6.02-.88-1.16-1.95-3.28-2.54-6.02zM15.54 18.02A15.8 15.8 0 0016.8 13h3.13a8.01 8.01 0 01-4.39 5.02z"/></svg>
                     View Client Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-slide">
+            <div class="project-card">
+              <div class="project-media">
+                <VideoShowcase videos={handoff.videos} />
+              </div>
+              <div class="project-info">
+                <span class="project-type">{handoff.type}</span>
+                <h3>{handoff.name}</h3>
+                <p>{handoff.description}</p>
+                <div class="project-links">
+                  <a href={handoff.links.github} target="_blank" rel="noopener" class="project-link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
                   </a>
                 </div>
               </div>
