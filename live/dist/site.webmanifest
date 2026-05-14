@@ -1,0 +1,22 @@
+{
+  "name": "Solv3d",
+  "short_name": "Solv3d",
+  "description": "Practical digital transformation for SMEs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#f7f4ee",
+  "icons": [
+    {
+      "src": "/square-logo.jpg",
+      "sizes": "775x779",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1920x1004",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

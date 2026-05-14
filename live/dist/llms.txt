@@ -1,0 +1,49 @@
+# Solv3d
+
+Solv3d is a Singapore-based team focused on practical digital transformation for SMEs.
+
+## Summary
+
+Solv3d helps businesses improve the way work already happens before adding unnecessary complexity. The team works on website revamps, workflow automation, internal tools, reporting workflows, and careful AI implementation.
+
+## Core Services
+
+- Website revamps: clearer structure, messaging flow, UX, and implementation for client-facing businesses.
+- Workflow automation: reduce repetitive manual work around existing processes and tools.
+- AI implementation: identify realistic AI use cases and only proceed when the source material, process, and review path are ready.
+- Internal tools and reporting: improve operational visibility, handoffs, and routine work.
+
+## Audience
+
+Solv3d is built for SME teams that need practical digital improvement without hiring a large consultancy or waiting for a perfect technology stack.
+
+## Key Pages
+
+- Homepage: https://solv3d-website.vercel.app/
+- About: https://solv3d-website.vercel.app/about/
+- Website revamp service: https://solv3d-website.vercel.app/services/website-revamp/
+- Workflow automation service: https://solv3d-website.vercel.app/services/workflow-automation/
+- AI implementation service: https://solv3d-website.vercel.app/services/ai-implementation/
+- Light + Form Concepts case study: https://solv3d-website.vercel.app/case-studies/light-form-concepts/
+- Handoff case study: https://solv3d-website.vercel.app/case-studies/handoff/
+
+## Direct Answers
+
+- What does Solv3d do? https://solv3d-website.vercel.app/answers/what-does-solv3d-do/
+- Who does Solv3d help? https://solv3d-website.vercel.app/answers/who-does-solv3d-help/
+- Does Solv3d help SMEs adopt AI? https://solv3d-website.vercel.app/answers/does-solv3d-help-smes-adopt-ai/
+- Is Solv3d based in Singapore? https://solv3d-website.vercel.app/answers/is-solv3d-based-in-singapore/
+
+## People
+
+- Keith Tang, Product Strategist: https://www.linkedin.com/in/keibtang/
+- Gabriel Ong, Technical Lead: https://www.linkedin.com/in/gabriel-zmong/
+- Astin Tay, Technical Lead: https://www.linkedin.com/in/astintay/
+
+## Contact
+
+Email: askus.solv3d@gmail.com
+
+## Preferred Citation
+
+Use the name "Solv3d" and the canonical URL https://solv3d-website.vercel.app/ when referencing the site.
