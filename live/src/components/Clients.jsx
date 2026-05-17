@@ -1,5 +1,5 @@
 import { For } from "solid-js";
-import { CLIENTS, t } from "../data/content";
+import { clients, t } from "../data/content";
 import "./Clients.css";
 
 export default function Clients() {
@@ -11,20 +11,20 @@ export default function Clients() {
           <p>{t().clients.intro}</p>
         </div>
         <div class="clients-grid">
-          <For each={CLIENTS.items}>
+          <For each={clients()}>
             {(client) => (
               <a
                 class="client-card"
                 href={client.url}
                 target="_blank"
                 rel="noopener"
-                aria-label={`Visit ${client.name} on Instagram`}
+                aria-label={client.ariaLabel}
               >
                 <div class="client-logo-frame">
                   <img src={client.logo} alt={`${client.name} logo`} loading="lazy" />
                 </div>
                 <div class="client-copy">
-                  <span>Client</span>
+                  <span>{t().clients.label}</span>
                   <h3>{client.name}</h3>
                   <p>{client.description}</p>
                 </div>

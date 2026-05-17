@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
           <div class="footer-nav-col">
             <h4>{t().footer.contact}</h4>
-            <a href={`mailto:${CONTACT_EMAIL}`}>Email us</a>
+            <a href={`mailto:${CONTACT_EMAIL}`}>{t().links.emailUs}</a>
           </div>
         </div>
       </div>
